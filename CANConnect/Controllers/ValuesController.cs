@@ -18,7 +18,7 @@ namespace CANConnect.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "10";
+            return "{score: 10}";
         }
 
         // POST api/values
